@@ -12,8 +12,15 @@ public class Example {
         int x = SkeletonJava.readIntConsole("x=");
         int y = SkeletonJava.readIntConsole("y=");
         suma = sumare(x, y);
+        int diferenta;
+        diferenta= Substract.substract(x,y);
+        int produs;
+        produs=Multiply.multiply(x,y);
+
 
         SkeletonJava.printConsole(x + "+" + y + "=" + suma);
+        SkeletonJava.printConsole(x + "-" + y + "=" + diferenta);
+        SkeletonJava.printConsole(x + "X" + y + "=" + produs);
     }
 
     public static int sumare(int x, int y) {
