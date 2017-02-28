@@ -4,7 +4,7 @@
 public class MaxElemArray {
     public static void main(String[] args) {
 
-        int count = SkeletonJava.readIntConsole("how many elements?");
+        int count = SkeletonJava.readIntConsole("how many elements?3");
         int[] elements = new int [count];
 
        for(int i=0; i<count; i++){
